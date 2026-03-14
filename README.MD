@@ -90,8 +90,10 @@ DELETE: DELETE/ todos/:id
 
 ## Developed by : Sabrin Altahan
 
-Github link: 
+Github link: https://github.com/Sabrinaltahan/Todo-list.git
 
-Frontend APP:
 
-Backend API:
+Frontend APP:https://todo-list-1-m0hd.onrender.com
+
+
+Backend API: https://todo-list-rrqd.onrender.com
