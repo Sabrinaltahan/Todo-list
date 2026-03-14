@@ -3,6 +3,7 @@ import { api } from "./api/client";
 import type { Todo, TodoStatus } from "./types/todo";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
+import "./index.css";
 
 export default function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
