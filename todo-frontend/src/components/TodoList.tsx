@@ -29,10 +29,10 @@ export default function TodoList({ todos, onDelete, onChangeStatus }: Props) {
           <p>
             <strong>Status:</strong>{" "}
             {todo.status === "not_started"
-              ? "Ej påbörjad"
+              ? "Not started"
               : todo.status === "in_progress"
-              ? "Pågående"
-              : "Avklarad"}
+              ? "In progress"
+              : "Done"}
           </p>
 
           {todo.deadline && (
