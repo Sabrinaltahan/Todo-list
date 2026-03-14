@@ -92,9 +92,9 @@ export default function TodoForm({ onCreate }: Props) {
           onChange={(e) => setStatus(e.target.value as TodoStatus)}
           style={{ width: "100%", padding: 8, marginTop: 4 }}
         >
-          <option value="not_started">Ej påbörjad</option>
-          <option value="in_progress">Pågående</option>
-          <option value="done">Avklarad</option>
+          <option value="not_started">Not started</option>
+          <option value="in_progress">In progress</option>
+          <option value="done">Done</option>
         </select>
       </div>
 

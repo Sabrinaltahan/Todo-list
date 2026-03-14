@@ -42,9 +42,9 @@ export default function TodoList({ todos, onDelete, onChangeStatus }: Props) {
           )}
 
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-            <button onClick={() => onChangeStatus(todo.id, "not_started")}>Ej påbörjad</button>
-            <button onClick={() => onChangeStatus(todo.id, "in_progress")}>Pågående</button>
-            <button onClick={() => onChangeStatus(todo.id, "done")}>Avklarad</button>
+            <button onClick={() => onChangeStatus(todo.id, "not_started")}>Not started</button>
+            <button onClick={() => onChangeStatus(todo.id, "in_progress")}>In progress</button>
+            <button onClick={() => onChangeStatus(todo.id, "done")}>Done</button>
             <button onClick={() => onDelete(todo.id)}>Delete</button>
           </div>
         </div>
